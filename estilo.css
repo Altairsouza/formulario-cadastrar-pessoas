@@ -1,0 +1,85 @@
+*{
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+#esquerda{
+    float: left;
+    width: 35%;
+    height: 500px;
+}
+#direita{
+    float: left;
+    width: 65%;
+    height: 500px;
+}
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 13pt;
+    width:100%;
+    
+}
+
+form{
+    width: 330px;
+    background-color:rgba(0, 0, 0, .2);
+    margin :30px auto;
+    padding: 20px;
+}
+input[type="submit"]{
+    margin-top:10px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+table{
+    width: 90%;
+    margin:30px auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+tr{
+    line-height:30px ;
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+     text-decoration: none; /* vai tirar o traço em baixo */
+}
+td{
+    padding: 0px 5px;
+   
+}
+h2{
+    text-align: center;
+}
+div#n{
+   
+    width: 900%;
+    height: 500px;
+    margin: 30px auto 0px auto;
+
+}
+img{
+    width: 50px;
+    display: block;
+    float: left;
+}
+h4{
+    float: left;
+    line-height: 50px;
+    text-align: left;
+    
+}
